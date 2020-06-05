@@ -4,11 +4,11 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"prom-pinger/ping"
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/sparrc/go-ping"
 )
 
 var (
