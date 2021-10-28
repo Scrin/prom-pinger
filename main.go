@@ -4,8 +4,9 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"prom-pinger/ping"
 	"time"
+
+	"github.com/Scrin/prom-pinger/ping"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
